@@ -1,0 +1,24 @@
+name: rip_hub_server
+description: RipHub server to handle YouTube video fetching and converting.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+
+dependencies:
+#   path: ^1.8.0
+  shelf: ^1.2.0
+  shelf_router: ^1.1.2
+
+  freezed_annotation: ^1.1.0
+
+  http: ^0.13.4
+  youtube_explode_dart: ^1.10.4 
+
+dev_dependencies:
+  lints: ^1.0.0
+
+  freezed: ^1.1.1
+  json_serializable: ^6.1.4
